@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* #canvas {
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+.label {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+} */
+
+canvas {
+  /* position: fixed; */
+  display: block;
+}
+#threeDToggleBtn {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* #threeDOutlineBtn {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+
+
+} */
+#correctedWallTaskBtn {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  display: none;
+  cursor: pointer;
+}
+#wallWidth,
+#spaceBetweenLines {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  display: block;
+}
+#wallWidth input,
+#spaceBetweenLines input {
+  cursor: pointer;
+  margin-left: 5px;
+}
+#wallWidth div,
+#spaceBetweenLines div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#spaceBetweenLines {
+  top: 210px;
+}
+
+#alignments,
+#wallPatterns,
+#colors,
+/* #edgePoint, */
+#addPoints {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  display: block;
+}
+/* #edgePoint{
+  top:410px;
+} */
+#addPoints{
+  top:410px;
+  cursor: pointer;
+}
+.eachEdge{
+  width: 25px;
+}
+#alignments label,
+#wallPatterns label,
+#colors label {
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+}
+#alignments label input,
+#wallPatterns label input,
+#colors label input {
+  cursor: pointer;
+  margin-right: 2px;
+}
+#alignments div,
+#wallPatterns div,
+#colors div {
+  display: flex;
+}
+#wallPatterns {
+  top: 170px;
+}
+#colors {
+  top: 250px;
+}
+
+#clearAllBtn {
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  display: block;
+  cursor: pointer;
+}
+
+#subAreaBtn {
+  position: absolute;
+  top: 330px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  display: block;
+  cursor: pointer;
+}
+#removePointsBtn {
+  position: absolute;
+  top: 370px;
+  left: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  display: block;
+  cursor: pointer;
+}
